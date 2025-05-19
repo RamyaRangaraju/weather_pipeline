@@ -1,0 +1,50 @@
+[2025-04-16T19:58:24.553-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-16T19:58:24.558-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities manual__2025-04-17T00:57:07.584310+00:00 [queued]>
+[2025-04-16T19:58:24.560-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities manual__2025-04-17T00:57:07.584310+00:00 [queued]>
+[2025-04-16T19:58:24.560-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-16T19:58:24.565-0500] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_weather_for_all_cities> on 2025-04-17 00:57:07.584310+00:00
+[2025-04-16T19:58:24.568-0500] {standard_task_runner.py:72} INFO - Started process 31491 to run task
+[2025-04-16T19:58:24.572-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'multi_city_weather_pipeline', 'fetch_weather_for_all_cities', 'manual__2025-04-17T00:57:07.584310+00:00', '--job-id', '129', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/var/folders/4n/q_76d_d57mb9q1qtrf4mvh940000gn/T/tmpdbj__vdl']
+[2025-04-16T19:58:24.573-0500] {standard_task_runner.py:105} INFO - Job 129: Subtask fetch_weather_for_all_cities
+[2025-04-16T19:58:24.590-0500] {task_command.py:467} INFO - Running <TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities manual__2025-04-17T00:57:07.584310+00:00 [running]> on host ramyas-air.lan
+[2025-04-16T19:58:24.609-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='multi_city_weather_pipeline' AIRFLOW_CTX_TASK_ID='fetch_weather_for_all_cities' AIRFLOW_CTX_EXECUTION_DATE='2025-04-17T00:57:07.584310+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-17T00:57:07.584310+00:00'
+[2025-04-16T19:58:24.610-0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-16T19:58:24.610-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-16T19:58:24.610-0500] {logging_mixin.py:190} INFO - Current task name:fetch_weather_for_all_cities state:running start_date:2025-04-17 00:58:24.558588+00:00
+[2025-04-16T19:58:24.610-0500] {logging_mixin.py:190} INFO - Dag name:multi_city_weather_pipeline and current dag run status:running
+[2025-04-16T19:58:24.610-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-16T19:58:24.977-0500] {logging_mixin.py:190} INFO - Dallas: 25.44°C, scattered clouds
+[2025-04-16T19:58:25.593-0500] {logging_mixin.py:190} INFO - Saved Dallas to DB.
+[2025-04-16T19:58:25.807-0500] {logging_mixin.py:190} INFO - New York: 8.65°C, overcast clouds
+[2025-04-16T19:58:26.051-0500] {logging_mixin.py:190} INFO - Saved New York to DB.
+[2025-04-16T19:58:26.226-0500] {logging_mixin.py:190} INFO - London: 6.07°C, overcast clouds
+[2025-04-16T19:58:26.632-0500] {logging_mixin.py:190} INFO - Saved London to DB.
+[2025-04-16T19:58:26.811-0500] {logging_mixin.py:190} INFO - Tokyo: 18.3°C, clear sky
+[2025-04-16T19:58:26.925-0500] {logging_mixin.py:190} INFO - Saved Tokyo to DB.
+[2025-04-16T19:58:27.431-0500] {logging_mixin.py:190} INFO - Bengaluru: 21.12°C, scattered clouds
+[2025-04-16T19:58:27.582-0500] {logging_mixin.py:190} INFO - Saved Bengaluru to DB.
+[2025-04-16T19:58:27.775-0500] {logging_mixin.py:190} INFO - San Francisco: 13.78°C, broken clouds
+[2025-04-16T19:58:28.399-0500] {logging_mixin.py:190} INFO - Saved San Francisco to DB.
+[2025-04-16T19:58:28.634-0500] {logging_mixin.py:190} INFO - Chicago: 4.42°C, overcast clouds
+[2025-04-16T19:58:29.008-0500] {logging_mixin.py:190} INFO - Saved Chicago to DB.
+[2025-04-16T19:58:29.224-0500] {logging_mixin.py:190} INFO - Berlin: 17.12°C, clear sky
+[2025-04-16T19:58:29.278-0500] {logging_mixin.py:190} INFO - Saved Berlin to DB.
+[2025-04-16T19:58:29.501-0500] {logging_mixin.py:190} INFO - Sydney: 20.83°C, scattered clouds
+[2025-04-16T19:58:29.657-0500] {logging_mixin.py:190} INFO - Saved Sydney to DB.
+[2025-04-16T19:58:29.843-0500] {logging_mixin.py:190} INFO - Toronto: 4.46°C, few clouds
+[2025-04-16T19:58:30.106-0500] {logging_mixin.py:190} INFO - Saved Toronto to DB.
+[2025-04-16T19:58:30.325-0500] {logging_mixin.py:190} INFO - Mumbai: 26.99°C, clear sky
+[2025-04-16T19:58:30.639-0500] {logging_mixin.py:190} INFO - Saved Mumbai to DB.
+[2025-04-16T19:58:30.838-0500] {logging_mixin.py:190} INFO - Cape Town: 16.05°C, clear sky
+[2025-04-16T19:58:30.992-0500] {logging_mixin.py:190} INFO - Saved Cape Town to DB.
+[2025-04-16T19:58:31.059-0500] {logging_mixin.py:190} INFO - ✅ Excel report saved: /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/scripts/../reports/weather_report_2025-04-16.xlsx
+[2025-04-16T19:58:31.059-0500] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-16T19:58:31.064-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-16T19:58:31.064-0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=multi_city_weather_pipeline, task_id=fetch_weather_for_all_cities, run_id=manual__2025-04-17T00:57:07.584310+00:00, execution_date=20250417T005707, start_date=20250417T005824, end_date=20250417T005831
+[2025-04-16T19:58:31.069-0500] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-16T19:58:31.070-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-16T19:58:31.070-0500] {logging_mixin.py:190} INFO - Dag name:multi_city_weather_pipeline queued_at:2025-04-17 00:57:07.592525+00:00
+[2025-04-16T19:58:31.070-0500] {logging_mixin.py:190} INFO - Task hostname:ramyas-air.lan operator:PythonOperator
+[2025-04-16T19:58:31.083-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-16T19:58:31.087-0500] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-16T19:58:31.087-0500] {local_task_job_runner.py:245} INFO - ::endgroup::

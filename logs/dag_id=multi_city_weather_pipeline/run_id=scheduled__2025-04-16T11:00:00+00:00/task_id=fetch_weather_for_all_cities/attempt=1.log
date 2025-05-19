@@ -1,0 +1,258 @@
+[2025-04-16T07:04:20.966-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-16T07:04:20.970-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities scheduled__2025-04-16T11:00:00+00:00 [queued]>
+[2025-04-16T07:04:20.971-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities scheduled__2025-04-16T11:00:00+00:00 [queued]>
+[2025-04-16T07:04:20.971-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-16T07:04:20.976-0500] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_weather_for_all_cities> on 2025-04-16 11:00:00+00:00
+[2025-04-16T07:04:20.982-0500] {standard_task_runner.py:72} INFO - Started process 12925 to run task
+[2025-04-16T07:04:20.986-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'multi_city_weather_pipeline', 'fetch_weather_for_all_cities', 'scheduled__2025-04-16T11:00:00+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/var/folders/4n/q_76d_d57mb9q1qtrf4mvh940000gn/T/tmp77cljxq5']
+[2025-04-16T07:04:20.987-0500] {standard_task_runner.py:105} INFO - Job 109: Subtask fetch_weather_for_all_cities
+[2025-04-16T07:04:21.006-0500] {task_command.py:467} INFO - Running <TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities scheduled__2025-04-16T11:00:00+00:00 [running]> on host ramyas-macbook-air.local
+[2025-04-16T07:04:21.026-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='multi_city_weather_pipeline' AIRFLOW_CTX_TASK_ID='fetch_weather_for_all_cities' AIRFLOW_CTX_EXECUTION_DATE='2025-04-16T11:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-16T11:00:00+00:00'
+[2025-04-16T07:04:21.026-0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-16T07:04:21.026-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-16T07:04:21.027-0500] {logging_mixin.py:190} INFO - Current task name:fetch_weather_for_all_cities state:running start_date:2025-04-16 12:04:20.970131+00:00
+[2025-04-16T07:04:21.027-0500] {logging_mixin.py:190} INFO - Dag name:multi_city_weather_pipeline and current dag run status:running
+[2025-04-16T07:04:21.027-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-16T07:04:21.316-0500] {logging_mixin.py:190} INFO - Dallas: 14.08°C, clear sky
+[2025-04-16T07:04:21.839-0500] {logging_mixin.py:190} INFO - Saved Dallas to DB.
+[2025-04-16T07:04:22.067-0500] {logging_mixin.py:190} INFO - New York: 7.72°C, broken clouds
+[2025-04-16T07:04:22.448-0500] {logging_mixin.py:190} INFO - Saved New York to DB.
+[2025-04-16T07:04:22.636-0500] {logging_mixin.py:190} INFO - London: 14.28°C, scattered clouds
+[2025-04-16T07:04:22.787-0500] {logging_mixin.py:190} INFO - Saved London to DB.
+[2025-04-16T07:04:23.003-0500] {logging_mixin.py:190} INFO - Tokyo: 15.73°C, few clouds
+[2025-04-16T07:04:23.595-0500] {logging_mixin.py:190} INFO - Saved Tokyo to DB.
+[2025-04-16T07:04:23.775-0500] {logging_mixin.py:190} INFO - Bengaluru: 28.71°C, light intensity drizzle
+[2025-04-16T07:04:24.014-0500] {logging_mixin.py:190} INFO - Saved Bengaluru to DB.
+[2025-04-16T07:04:24.229-0500] {logging_mixin.py:190} INFO - San Francisco: 11.58°C, broken clouds
+[2025-04-16T07:04:24.721-0500] {logging_mixin.py:190} INFO - Saved San Francisco to DB.
+[2025-04-16T07:04:25.071-0500] {logging_mixin.py:190} INFO - Chicago: 2.41°C, smoke
+[2025-04-16T07:04:25.124-0500] {logging_mixin.py:190} INFO - Saved Chicago to DB.
+[2025-04-16T07:04:25.313-0500] {logging_mixin.py:190} INFO - Berlin: 24.15°C, scattered clouds
+[2025-04-16T07:04:25.785-0500] {logging_mixin.py:190} INFO - Saved Berlin to DB.
+[2025-04-16T07:04:25.993-0500] {logging_mixin.py:190} INFO - Sydney: 17.46°C, light rain
+[2025-04-16T07:04:26.220-0500] {logging_mixin.py:190} INFO - Saved Sydney to DB.
+[2025-04-16T07:04:26.401-0500] {logging_mixin.py:190} INFO - Toronto: 1.06°C, overcast clouds
+[2025-04-16T07:04:26.791-0500] {logging_mixin.py:190} INFO - Saved Toronto to DB.
+[2025-04-16T07:04:26.976-0500] {logging_mixin.py:190} INFO - Mumbai: 29.34°C, clear sky
+[2025-04-16T07:04:27.103-0500] {logging_mixin.py:190} INFO - Saved Mumbai to DB.
+[2025-04-16T07:22:14.777-0500] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py", line 35, in <lambda>
+    python_callable=lambda: fetch_weather_for_cities(cities)
+  File "/Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/scripts/fetch_weather.py", line 36, in fetch_weather_for_cities
+    result = fetch_weather(city)
+  File "/Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/scripts/fetch_weather.py", line 14, in fetch_weather
+    response = requests.get(url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[2025-04-16T07:22:14.788-0500] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-04-16T07:22:14.788-0500] {logging_mixin.py:190} INFO - Task start:2025-04-16 12:04:20.970131+00:00 end:2025-04-16 12:22:14.787879+00:00 duration:1073.817748
+[2025-04-16T07:22:14.788-0500] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): fetch_weather_for_all_cities> dag:<DAG: multi_city_weather_pipeline> dagrun:<DagRun multi_city_weather_pipeline @ 2025-04-16 11:00:00+00:00: scheduled__2025-04-16T11:00:00+00:00, state:running, queued_at: 2025-04-16 12:04:11.179441+00:00. externally triggered: False>
+[2025-04-16T07:22:14.788-0500] {logging_mixin.py:190} INFO - Failure caused by ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[2025-04-16T07:22:14.789-0500] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=multi_city_weather_pipeline, task_id=fetch_weather_for_all_cities, run_id=scheduled__2025-04-16T11:00:00+00:00, execution_date=20250416T110000, start_date=20250416T120420, end_date=20250416T122214
+[2025-04-16T07:22:14.795-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-16T07:22:14.800-0500] {standard_task_runner.py:124} ERROR - Failed to execute job 109 for task fetch_weather_for_all_cities (('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')); 12925)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py", line 35, in <lambda>
+    python_callable=lambda: fetch_weather_for_cities(cities)
+  File "/Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/scripts/fetch_weather.py", line 36, in fetch_weather_for_cities
+    result = fetch_weather(city)
+  File "/Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/scripts/fetch_weather.py", line 14, in fetch_weather
+    response = requests.get(url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[2025-04-16T07:22:14.855-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-16T07:22:14.861-0500] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-16T07:22:14.862-0500] {local_task_job_runner.py:245} INFO - ::endgroup::

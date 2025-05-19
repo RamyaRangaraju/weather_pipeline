@@ -1,0 +1,875 @@
+[2025-04-15T20:18:51.868-0500] {processor.py:186} INFO - Started process (PID=9154) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:18:51.869-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T20:18:51.869-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:18:51.869-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:18:52.031-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:18:52.126-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:18:52.125-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:18:52.133-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:18:52.133-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 00:00:00+00:00, run_after=2025-04-16 01:00:00+00:00
+[2025-04-15T20:18:52.140-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.273 seconds
+[2025-04-15T20:19:48.042-0500] {processor.py:186} INFO - Started process (PID=9217) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:19:48.043-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T20:19:48.043-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:19:48.043-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:19:48.202-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:19:48.236-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:19:48.235-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:19:48.271-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:19:48.270-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 01:00:00+00:00, run_after=2025-04-16 02:00:00+00:00
+[2025-04-15T20:19:48.276-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.235 seconds
+[2025-04-15T20:23:29.125-0500] {processor.py:186} INFO - Started process (PID=9323) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:23:29.125-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T20:23:29.126-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:23:29.126-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:23:29.283-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:23:29.318-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:23:29.318-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:23:29.351-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:23:29.351-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 01:00:00+00:00, run_after=2025-04-16 02:00:00+00:00
+[2025-04-15T20:23:29.356-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.233 seconds
+[2025-04-15T20:29:47.601-0500] {processor.py:186} INFO - Started process (PID=9481) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:29:47.602-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T20:29:47.602-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:29:47.602-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:29:47.758-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:29:47.791-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:29:47.791-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:29:47.826-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:29:47.826-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 01:00:00+00:00, run_after=2025-04-16 02:00:00+00:00
+[2025-04-15T20:29:47.832-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.233 seconds
+[2025-04-15T20:38:37.149-0500] {processor.py:186} INFO - Started process (PID=9676) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:38:37.149-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T20:38:37.150-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:38:37.150-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:38:37.301-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:38:37.335-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:38:37.335-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:38:37.368-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:38:37.368-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 01:00:00+00:00, run_after=2025-04-16 02:00:00+00:00
+[2025-04-15T20:38:37.374-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.226 seconds
+[2025-04-15T20:53:50.569-0500] {processor.py:186} INFO - Started process (PID=10195) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:53:50.570-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T20:53:50.570-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:53:50.570-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:53:50.764-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:53:50.826-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:53:50.825-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:53:50.833-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:53:50.833-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 01:00:00+00:00, run_after=2025-04-16 02:00:00+00:00
+[2025-04-15T20:53:50.838-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.272 seconds
+[2025-04-15T20:55:06.521-0500] {processor.py:186} INFO - Started process (PID=10317) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:55:06.522-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T20:55:06.522-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:55:06.522-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:55:06.708-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:55:06.770-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:55:06.770-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:55:06.778-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:55:06.777-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 01:00:00+00:00, run_after=2025-04-16 02:00:00+00:00
+[2025-04-15T20:55:06.783-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.263 seconds
+[2025-04-15T20:58:26.461-0500] {processor.py:186} INFO - Started process (PID=10537) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:58:26.462-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T20:58:26.462-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:58:26.462-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:58:26.705-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T20:58:26.762-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:58:26.762-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:58:26.769-0500] {logging_mixin.py:190} INFO - [2025-04-15T20:58:26.769-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 01:00:00+00:00, run_after=2025-04-16 02:00:00+00:00
+[2025-04-15T20:58:26.774-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.314 seconds
+[2025-04-15T21:01:02.362-0500] {processor.py:186} INFO - Started process (PID=10688) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:01:02.363-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T21:01:02.363-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:01:02.363-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:01:02.602-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:01:02.662-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:01:02.661-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T21:01:02.668-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:01:02.668-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 02:00:00+00:00, run_after=2025-04-16 03:00:00+00:00
+[2025-04-15T21:01:02.673-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.313 seconds
+[2025-04-15T21:03:38.933-0500] {processor.py:186} INFO - Started process (PID=10839) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:03:38.934-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T21:03:38.934-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:03:38.934-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:03:39.181-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:03:39.239-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:03:39.239-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T21:03:39.246-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:03:39.246-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 02:00:00+00:00, run_after=2025-04-16 03:00:00+00:00
+[2025-04-15T21:03:39.251-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-15T21:50:36.626-0500] {processor.py:186} INFO - Started process (PID=11037) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:50:36.627-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T21:50:36.627-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:50:36.627-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:50:36.885-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T21:50:36.942-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:50:36.942-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T21:50:36.948-0500] {logging_mixin.py:190} INFO - [2025-04-15T21:50:36.948-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 02:00:00+00:00, run_after=2025-04-16 03:00:00+00:00
+[2025-04-15T21:50:36.954-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.329 seconds
+[2025-04-15T22:25:32.335-0500] {processor.py:186} INFO - Started process (PID=11255) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T22:25:32.336-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T22:25:32.336-0500] {logging_mixin.py:190} INFO - [2025-04-15T22:25:32.336-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T22:25:32.580-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T22:25:32.637-0500] {logging_mixin.py:190} INFO - [2025-04-15T22:25:32.637-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T22:25:32.644-0500] {logging_mixin.py:190} INFO - [2025-04-15T22:25:32.644-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 03:00:00+00:00, run_after=2025-04-16 04:00:00+00:00
+[2025-04-15T22:25:32.649-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.316 seconds
+[2025-04-15T23:46:41.126-0500] {processor.py:186} INFO - Started process (PID=11489) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T23:46:41.126-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-15T23:46:41.127-0500] {logging_mixin.py:190} INFO - [2025-04-15T23:46:41.127-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T23:46:41.358-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-15T23:46:41.417-0500] {logging_mixin.py:190} INFO - [2025-04-15T23:46:41.417-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:46:41.424-0500] {logging_mixin.py:190} INFO - [2025-04-15T23:46:41.423-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 04:00:00+00:00, run_after=2025-04-16 05:00:00+00:00
+[2025-04-15T23:46:41.429-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.305 seconds
+[2025-04-16T00:10:27.745-0500] {processor.py:186} INFO - Started process (PID=11740) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T00:10:27.746-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T00:10:27.746-0500] {logging_mixin.py:190} INFO - [2025-04-16T00:10:27.746-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T00:10:27.992-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T00:10:28.050-0500] {logging_mixin.py:190} INFO - [2025-04-16T00:10:28.050-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:10:28.057-0500] {logging_mixin.py:190} INFO - [2025-04-16T00:10:28.057-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 05:00:00+00:00, run_after=2025-04-16 06:00:00+00:00
+[2025-04-16T00:10:28.062-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.318 seconds
+[2025-04-16T01:37:10.993-0500] {processor.py:186} INFO - Started process (PID=12010) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T01:37:10.994-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T01:37:10.994-0500] {logging_mixin.py:190} INFO - [2025-04-16T01:37:10.994-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T01:37:11.239-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T01:37:11.297-0500] {logging_mixin.py:190} INFO - [2025-04-16T01:37:11.297-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:37:11.303-0500] {logging_mixin.py:190} INFO - [2025-04-16T01:37:11.303-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 06:00:00+00:00, run_after=2025-04-16 07:00:00+00:00
+[2025-04-16T01:37:11.308-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.317 seconds
+[2025-04-16T03:03:38.299-0500] {processor.py:186} INFO - Started process (PID=12237) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T03:03:38.299-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T03:03:38.299-0500] {logging_mixin.py:190} INFO - [2025-04-16T03:03:38.299-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T03:03:38.674-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T03:03:38.734-0500] {logging_mixin.py:190} INFO - [2025-04-16T03:03:38.734-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:03:38.740-0500] {logging_mixin.py:190} INFO - [2025-04-16T03:03:38.740-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 07:00:00+00:00, run_after=2025-04-16 08:00:00+00:00
+[2025-04-16T03:03:38.745-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.447 seconds
+[2025-04-16T04:26:03.741-0500] {processor.py:186} INFO - Started process (PID=12535) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T04:26:03.742-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T04:26:03.742-0500] {logging_mixin.py:190} INFO - [2025-04-16T04:26:03.742-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T04:26:04.017-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T04:26:04.075-0500] {logging_mixin.py:190} INFO - [2025-04-16T04:26:04.075-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T04:26:04.081-0500] {logging_mixin.py:190} INFO - [2025-04-16T04:26:04.081-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 09:00:00+00:00, run_after=2025-04-16 10:00:00+00:00
+[2025-04-16T04:26:04.087-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.347 seconds
+[2025-04-16T05:00:00.418-0500] {processor.py:186} INFO - Started process (PID=12682) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T05:00:00.419-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T05:00:00.419-0500] {logging_mixin.py:190} INFO - [2025-04-16T05:00:00.419-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T05:00:00.663-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T05:00:00.721-0500] {logging_mixin.py:190} INFO - [2025-04-16T05:00:00.721-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T05:00:00.727-0500] {logging_mixin.py:190} INFO - [2025-04-16T05:00:00.727-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 09:00:00+00:00, run_after=2025-04-16 10:00:00+00:00
+[2025-04-16T05:00:00.733-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.317 seconds
+[2025-04-16T06:46:19.061-0500] {processor.py:186} INFO - Started process (PID=12892) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T06:46:19.062-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T06:46:19.062-0500] {logging_mixin.py:190} INFO - [2025-04-16T06:46:19.062-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T06:46:19.291-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T06:46:19.350-0500] {logging_mixin.py:190} INFO - [2025-04-16T06:46:19.350-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T06:46:19.356-0500] {logging_mixin.py:190} INFO - [2025-04-16T06:46:19.356-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 11:00:00+00:00, run_after=2025-04-16 12:00:00+00:00
+[2025-04-16T06:46:19.361-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.302 seconds
+[2025-04-16T08:49:13.903-0500] {processor.py:186} INFO - Started process (PID=13040) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T08:49:13.903-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T08:49:13.904-0500] {logging_mixin.py:190} INFO - [2025-04-16T08:49:13.904-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T08:49:14.151-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T08:49:14.211-0500] {logging_mixin.py:190} INFO - [2025-04-16T08:49:14.211-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T08:49:14.217-0500] {logging_mixin.py:190} INFO - [2025-04-16T08:49:14.217-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 12:00:00+00:00, run_after=2025-04-16 13:00:00+00:00
+[2025-04-16T08:49:14.222-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.321 seconds
+[2025-04-16T09:48:53.206-0500] {processor.py:186} INFO - Started process (PID=13305) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T09:48:53.207-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T09:48:53.207-0500] {logging_mixin.py:190} INFO - [2025-04-16T09:48:53.207-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T09:48:55.170-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T09:48:55.231-0500] {logging_mixin.py:190} INFO - [2025-04-16T09:48:55.231-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T09:48:55.237-0500] {logging_mixin.py:190} INFO - [2025-04-16T09:48:55.237-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 14:00:00+00:00, run_after=2025-04-16 15:00:00+00:00
+[2025-04-16T09:48:55.244-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 2.040 seconds
+[2025-04-16T10:32:41.924-0500] {processor.py:186} INFO - Started process (PID=13591) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:32:41.925-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:32:41.926-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:32:41.926-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:32:42.322-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:32:42.385-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:32:42.384-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:32:42.392-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:32:42.392-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:32:42.399-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.477 seconds
+[2025-04-16T10:35:17.003-0500] {processor.py:186} INFO - Started process (PID=13789) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:35:17.004-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:35:17.004-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:35:17.004-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:35:17.448-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:35:17.508-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:35:17.508-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:35:17.514-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:35:17.514-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:35:17.520-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.518 seconds
+[2025-04-16T10:37:45.148-0500] {processor.py:186} INFO - Started process (PID=13947) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:37:45.148-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:37:45.148-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:37:45.148-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:37:45.378-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:37:45.438-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:37:45.438-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:37:45.445-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:37:45.445-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:37:45.450-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T10:40:07.499-0500] {processor.py:186} INFO - Started process (PID=14103) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:40:07.499-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:40:07.500-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:40:07.500-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:40:07.745-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:40:07.803-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:40:07.803-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:40:07.810-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:40:07.810-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:40:07.817-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T10:42:31.247-0500] {processor.py:186} INFO - Started process (PID=14258) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:42:31.248-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:42:31.248-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:42:31.248-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:42:31.480-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:42:31.539-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:42:31.539-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:42:31.547-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:42:31.547-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:42:31.552-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.307 seconds
+[2025-04-16T10:44:51.018-0500] {processor.py:186} INFO - Started process (PID=14389) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:44:51.019-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:44:51.019-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:44:51.019-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:44:51.265-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:44:51.323-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:44:51.323-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:44:51.329-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:44:51.329-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:44:51.335-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.318 seconds
+[2025-04-16T10:47:05.215-0500] {processor.py:186} INFO - Started process (PID=14528) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:47:05.216-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:47:05.216-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:47:05.216-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:47:05.447-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:47:05.507-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:47:05.507-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:47:05.514-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:47:05.514-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:47:05.520-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.306 seconds
+[2025-04-16T10:49:25.152-0500] {processor.py:186} INFO - Started process (PID=14683) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:49:25.153-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:49:25.153-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:49:25.153-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:49:25.403-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:49:25.463-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:49:25.463-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:49:25.470-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:49:25.470-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:49:25.476-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.325 seconds
+[2025-04-16T10:51:48.893-0500] {processor.py:186} INFO - Started process (PID=14815) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:51:48.894-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:51:48.894-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:51:48.894-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:51:49.122-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:51:49.181-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:51:49.181-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:51:49.187-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:51:49.187-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:51:49.193-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.301 seconds
+[2025-04-16T10:54:10.564-0500] {processor.py:186} INFO - Started process (PID=14963) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:54:10.564-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:54:10.565-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:54:10.565-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:54:10.811-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:54:10.869-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:54:10.869-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:54:10.876-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:54:10.876-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:54:10.881-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T10:56:32.515-0500] {processor.py:186} INFO - Started process (PID=15097) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:56:32.515-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:56:32.516-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:56:32.516-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:56:32.748-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:56:32.805-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:56:32.805-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:56:32.813-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:56:32.813-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:56:32.819-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.305 seconds
+[2025-04-16T10:58:49.867-0500] {processor.py:186} INFO - Started process (PID=15226) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:58:49.868-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T10:58:49.868-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:58:49.868-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:58:50.117-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T10:58:50.175-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:58:50.175-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T10:58:50.182-0500] {logging_mixin.py:190} INFO - [2025-04-16T10:58:50.182-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 15:00:00+00:00, run_after=2025-04-16 16:00:00+00:00
+[2025-04-16T10:58:50.187-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.322 seconds
+[2025-04-16T11:01:25.785-0500] {processor.py:186} INFO - Started process (PID=15384) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:01:25.786-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:01:25.786-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:01:25.786-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:01:26.027-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:01:26.088-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:01:26.088-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:01:26.095-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:01:26.095-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:01:26.100-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.317 seconds
+[2025-04-16T11:03:56.972-0500] {processor.py:186} INFO - Started process (PID=15518) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:03:56.974-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:03:56.974-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:03:56.974-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:03:57.234-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:03:57.294-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:03:57.294-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:03:57.300-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:03:57.300-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:03:57.306-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.335 seconds
+[2025-04-16T11:06:28.996-0500] {processor.py:186} INFO - Started process (PID=15703) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:06:28.997-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:06:28.998-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:06:28.998-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:06:29.251-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:06:29.313-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:06:29.312-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:06:29.319-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:06:29.319-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:06:29.325-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.330 seconds
+[2025-04-16T11:08:49.844-0500] {processor.py:186} INFO - Started process (PID=15840) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:08:49.846-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:08:49.846-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:08:49.846-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:08:50.092-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:08:50.153-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:08:50.153-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:08:50.159-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:08:50.159-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:08:50.164-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.322 seconds
+[2025-04-16T11:11:04.955-0500] {processor.py:186} INFO - Started process (PID=15980) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:11:04.955-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:11:04.956-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:11:04.956-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:11:05.189-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:11:05.250-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:11:05.250-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:11:05.256-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:11:05.256-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:11:05.262-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.309 seconds
+[2025-04-16T11:13:21.018-0500] {processor.py:186} INFO - Started process (PID=16135) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:13:21.019-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:13:21.019-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:13:21.019-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:13:21.270-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:13:21.329-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:13:21.329-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:13:21.336-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:13:21.336-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:13:21.342-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.325 seconds
+[2025-04-16T11:15:35.251-0500] {processor.py:186} INFO - Started process (PID=16299) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:15:35.252-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:15:35.252-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:15:35.252-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:15:35.483-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:15:35.541-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:15:35.541-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:15:35.548-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:15:35.548-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:15:35.554-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T11:17:46.725-0500] {processor.py:186} INFO - Started process (PID=16433) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:17:46.725-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:17:46.726-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:17:46.726-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:17:46.972-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:17:47.031-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:17:47.031-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:17:47.037-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:17:47.037-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:17:47.043-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T11:20:06.155-0500] {processor.py:186} INFO - Started process (PID=16587) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:20:06.155-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:20:06.156-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:20:06.156-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:20:06.388-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:20:06.446-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:20:06.445-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:20:06.452-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:20:06.452-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:20:06.457-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T11:22:26.861-0500] {processor.py:186} INFO - Started process (PID=16717) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:22:26.862-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:22:26.862-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:22:26.862-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:22:27.094-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:22:27.152-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:22:27.151-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:22:27.158-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:22:27.158-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:22:27.164-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T11:24:45.756-0500] {processor.py:186} INFO - Started process (PID=16855) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:24:45.756-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:24:45.756-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:24:45.756-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:24:45.987-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:24:46.046-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:24:46.046-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:24:46.053-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:24:46.053-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:24:46.058-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T11:27:01.018-0500] {processor.py:186} INFO - Started process (PID=17048) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:27:01.019-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:27:01.019-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:27:01.019-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:27:01.266-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:27:01.326-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:27:01.325-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:27:01.332-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:27:01.332-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:27:01.337-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.321 seconds
+[2025-04-16T11:29:16.000-0500] {processor.py:186} INFO - Started process (PID=17199) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:29:16.003-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:29:16.003-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:29:16.003-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:29:16.233-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:29:16.291-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:29:16.290-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:29:16.297-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:29:16.297-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:29:16.302-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.305 seconds
+[2025-04-16T11:31:27.036-0500] {processor.py:186} INFO - Started process (PID=17347) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:31:27.036-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:31:27.037-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:31:27.037-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:31:27.280-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:31:27.339-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:31:27.339-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:31:27.346-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:31:27.346-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:31:27.351-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.317 seconds
+[2025-04-16T11:48:31.683-0500] {processor.py:186} INFO - Started process (PID=17514) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:48:31.683-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:48:31.684-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:48:31.684-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:48:31.913-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:48:31.970-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:48:31.970-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:48:31.976-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:48:31.976-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:48:31.982-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.301 seconds
+[2025-04-16T11:51:54.571-0500] {processor.py:186} INFO - Started process (PID=17701) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:51:54.572-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:51:54.572-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:51:54.572-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:51:54.814-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:51:54.871-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:51:54.871-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:51:54.877-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:51:54.877-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:51:54.882-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.313 seconds
+[2025-04-16T11:54:05.443-0500] {processor.py:186} INFO - Started process (PID=17897) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:54:05.446-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:54:05.451-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:54:05.451-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:54:05.684-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:54:05.743-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:54:05.743-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:54:05.750-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:54:05.750-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:54:05.755-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.314 seconds
+[2025-04-16T11:56:19.129-0500] {processor.py:186} INFO - Started process (PID=18058) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:56:19.130-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:56:19.130-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:56:19.130-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:56:19.378-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:56:19.434-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:56:19.434-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:56:19.441-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:56:19.441-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:56:19.446-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.319 seconds
+[2025-04-16T11:58:27.863-0500] {processor.py:186} INFO - Started process (PID=18236) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:58:27.864-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T11:58:27.864-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:58:27.864-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:58:28.094-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T11:58:28.153-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:58:28.153-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:58:28.160-0500] {logging_mixin.py:190} INFO - [2025-04-16T11:58:28.160-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 16:00:00+00:00, run_after=2025-04-16 17:00:00+00:00
+[2025-04-16T11:58:28.166-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T12:00:57.948-0500] {processor.py:186} INFO - Started process (PID=18399) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:00:57.949-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:00:57.949-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:00:57.949-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:00:58.195-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:00:58.252-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:00:58.252-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:00:58.259-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:00:58.259-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:00:58.264-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.318 seconds
+[2025-04-16T12:03:08.560-0500] {processor.py:186} INFO - Started process (PID=18576) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:03:08.561-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:03:08.561-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:03:08.561-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:03:08.802-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:03:08.860-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:03:08.860-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:03:08.867-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:03:08.867-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:03:08.872-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.314 seconds
+[2025-04-16T12:05:14.369-0500] {processor.py:186} INFO - Started process (PID=18734) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:05:14.370-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:05:14.370-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:05:14.370-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:05:14.617-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:05:14.675-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:05:14.675-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:05:14.682-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:05:14.682-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:05:14.687-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T12:07:24.696-0500] {processor.py:186} INFO - Started process (PID=18876) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:07:24.696-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:07:24.697-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:07:24.697-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:07:24.942-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:07:25.000-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:07:25.000-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:07:25.006-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:07:25.006-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:07:25.011-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.317 seconds
+[2025-04-16T12:09:38.803-0500] {processor.py:186} INFO - Started process (PID=19051) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:09:38.805-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:09:38.805-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:09:38.805-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:09:39.222-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:09:39.280-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:09:39.280-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:09:39.288-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:09:39.288-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:09:39.294-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.494 seconds
+[2025-04-16T12:13:26.354-0500] {processor.py:186} INFO - Started process (PID=19208) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:13:26.355-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:13:26.355-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:13:26.355-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:13:26.602-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:13:26.661-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:13:26.661-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:13:26.667-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:13:26.667-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:13:26.673-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T12:29:55.197-0500] {processor.py:186} INFO - Started process (PID=19388) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:29:55.198-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:29:55.198-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:29:55.198-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:29:55.446-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:29:55.504-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:29:55.504-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:29:55.512-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:29:55.512-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:29:55.518-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.322 seconds
+[2025-04-16T12:45:26.259-0500] {processor.py:186} INFO - Started process (PID=19571) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:45:26.260-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:45:26.260-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:45:26.260-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:45:26.511-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:45:26.569-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:45:26.569-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:45:26.576-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:45:26.576-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:45:26.582-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.324 seconds
+[2025-04-16T12:50:33.728-0500] {processor.py:186} INFO - Started process (PID=19736) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:50:33.729-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:50:33.729-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:50:33.729-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:50:33.965-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:50:34.024-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:50:34.024-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:50:34.031-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:50:34.031-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:50:34.036-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.309 seconds
+[2025-04-16T12:53:07.038-0500] {processor.py:186} INFO - Started process (PID=19950) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:53:07.039-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:53:07.039-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:53:07.039-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:53:07.292-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:53:07.353-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:53:07.353-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:53:07.360-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:53:07.360-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:53:07.365-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.329 seconds
+[2025-04-16T12:55:33.120-0500] {processor.py:186} INFO - Started process (PID=20106) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:55:33.120-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:55:33.121-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:55:33.121-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:55:33.351-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:55:33.410-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:55:33.410-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:55:33.417-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:55:33.417-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:55:33.422-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T12:57:59.686-0500] {processor.py:186} INFO - Started process (PID=20293) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:57:59.686-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T12:57:59.687-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:57:59.687-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:57:59.950-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T12:58:00.010-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:58:00.010-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T12:58:00.017-0500] {logging_mixin.py:190} INFO - [2025-04-16T12:58:00.017-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 17:00:00+00:00, run_after=2025-04-16 18:00:00+00:00
+[2025-04-16T12:58:00.023-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.339 seconds
+[2025-04-16T13:00:37.691-0500] {processor.py:186} INFO - Started process (PID=20464) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:00:37.691-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:00:37.691-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:00:37.691-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:00:37.921-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:00:37.980-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:00:37.980-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:00:37.988-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:00:37.988-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:00:37.994-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.305 seconds
+[2025-04-16T13:06:35.542-0500] {processor.py:186} INFO - Started process (PID=20640) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:06:35.542-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:06:35.543-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:06:35.543-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:06:35.889-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:06:35.950-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:06:35.950-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:06:35.960-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:06:35.960-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:06:35.966-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.426 seconds
+[2025-04-16T13:09:01.466-0500] {processor.py:186} INFO - Started process (PID=20814) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:09:01.467-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:09:01.467-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:09:01.467-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:09:01.696-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:09:01.754-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:09:01.754-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:09:01.761-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:09:01.761-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:09:01.766-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.302 seconds
+[2025-04-16T13:11:16.032-0500] {processor.py:186} INFO - Started process (PID=20944) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:11:16.033-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:11:16.033-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:11:16.033-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:11:16.281-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:11:16.341-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:11:16.341-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:11:16.348-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:11:16.348-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:11:16.353-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.322 seconds
+[2025-04-16T13:13:49.190-0500] {processor.py:186} INFO - Started process (PID=21133) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:13:49.191-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:13:49.191-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:13:49.191-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:13:49.423-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:13:49.481-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:13:49.481-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:13:49.488-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:13:49.488-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:13:49.493-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T13:15:58.820-0500] {processor.py:186} INFO - Started process (PID=21262) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:15:58.821-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:15:58.821-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:15:58.821-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:15:59.069-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:15:59.130-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:15:59.130-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:15:59.136-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:15:59.136-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:15:59.142-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.323 seconds
+[2025-04-16T13:18:22.692-0500] {processor.py:186} INFO - Started process (PID=21412) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:18:22.692-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:18:22.692-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:18:22.692-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:18:22.925-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:18:22.987-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:18:22.987-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:18:22.994-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:18:22.994-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:18:23.000-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.310 seconds
+[2025-04-16T13:20:43.603-0500] {processor.py:186} INFO - Started process (PID=21575) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:20:43.603-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:20:43.604-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:20:43.604-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:20:43.851-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:20:43.910-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:20:43.909-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:20:43.916-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:20:43.916-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:20:43.922-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.321 seconds
+[2025-04-16T13:23:01.456-0500] {processor.py:186} INFO - Started process (PID=21725) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:23:01.456-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:23:01.457-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:23:01.457-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:23:01.689-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:23:01.749-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:23:01.749-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:23:01.756-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:23:01.756-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:23:01.761-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.307 seconds
+[2025-04-16T13:25:23.217-0500] {processor.py:186} INFO - Started process (PID=21913) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:25:23.218-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:25:23.218-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:25:23.218-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:25:23.467-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:25:23.528-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:25:23.528-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:25:23.534-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:25:23.534-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:25:23.540-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.324 seconds
+[2025-04-16T13:27:41.336-0500] {processor.py:186} INFO - Started process (PID=22096) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:27:41.336-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:27:41.336-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:27:41.336-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:27:41.568-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:27:41.627-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:27:41.627-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:27:41.633-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:27:41.633-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:27:41.638-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T13:29:53.063-0500] {processor.py:186} INFO - Started process (PID=22300) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:29:53.063-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:29:53.064-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:29:53.064-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:29:53.306-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:29:53.365-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:29:53.365-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:29:53.372-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:29:53.371-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:29:53.377-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.316 seconds
+[2025-04-16T13:40:44.256-0500] {processor.py:186} INFO - Started process (PID=22610) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:40:44.256-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:40:44.257-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:40:44.257-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:40:44.566-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:40:44.626-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:40:44.626-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:40:44.633-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:40:44.633-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:40:44.638-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.384 seconds
+[2025-04-16T13:43:16.942-0500] {processor.py:186} INFO - Started process (PID=22846) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:43:16.943-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:43:16.943-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:43:16.943-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:43:17.335-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:43:17.393-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:43:17.393-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:43:17.400-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:43:17.399-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:43:17.405-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.464 seconds
+[2025-04-16T13:45:44.959-0500] {processor.py:186} INFO - Started process (PID=23041) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:45:44.959-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:45:44.960-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:45:44.960-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:45:45.191-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:45:45.252-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:45:45.252-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:45:45.260-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:45:45.260-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:45:45.266-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.309 seconds
+[2025-04-16T13:48:10.519-0500] {processor.py:186} INFO - Started process (PID=23183) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:48:10.520-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:48:10.520-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:48:10.520-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:48:10.772-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:48:10.830-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:48:10.830-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:48:10.836-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:48:10.836-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:48:10.842-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.324 seconds
+[2025-04-16T13:50:33.605-0500] {processor.py:186} INFO - Started process (PID=23362) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:50:33.605-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:50:33.606-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:50:33.606-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:50:33.859-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:50:33.928-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:50:33.928-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:50:33.936-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:50:33.936-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:50:33.943-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.340 seconds
+[2025-04-16T13:53:14.965-0500] {processor.py:186} INFO - Started process (PID=23538) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:53:14.965-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:53:14.966-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:53:14.966-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:53:15.400-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:53:15.461-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:53:15.461-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:53:15.468-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:53:15.468-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:53:15.473-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.510 seconds
+[2025-04-16T13:56:08.549-0500] {processor.py:186} INFO - Started process (PID=23705) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:56:08.550-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:56:08.551-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:56:08.551-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:56:09.039-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:56:09.106-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:56:09.106-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:56:09.114-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:56:09.114-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:56:09.121-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.574 seconds
+[2025-04-16T13:58:33.819-0500] {processor.py:186} INFO - Started process (PID=23838) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:58:33.819-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T13:58:33.819-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:58:33.819-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:58:34.065-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T13:58:34.125-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:58:34.125-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:58:34.132-0500] {logging_mixin.py:190} INFO - [2025-04-16T13:58:34.132-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 18:00:00+00:00, run_after=2025-04-16 19:00:00+00:00
+[2025-04-16T13:58:34.137-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T14:01:14.651-0500] {processor.py:186} INFO - Started process (PID=24040) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:01:14.652-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:01:14.652-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:01:14.652-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:01:14.882-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:01:14.940-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:01:14.940-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:01:14.946-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:01:14.946-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:01:14.951-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.301 seconds
+[2025-04-16T14:04:04.480-0500] {processor.py:186} INFO - Started process (PID=24218) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:04:04.481-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:04:04.481-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:04:04.481-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:04:04.782-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:04:04.840-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:04:04.840-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:04:04.847-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:04:04.846-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:04:04.853-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.374 seconds
+[2025-04-16T14:09:12.096-0500] {processor.py:186} INFO - Started process (PID=24411) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:09:12.097-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:09:12.097-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:09:12.097-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:09:12.420-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:09:12.490-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:09:12.490-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:09:12.497-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:09:12.497-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:09:12.503-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.408 seconds
+[2025-04-16T14:41:45.267-0500] {processor.py:186} INFO - Started process (PID=24630) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:41:45.267-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:41:45.268-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:41:45.267-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:41:45.709-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:41:45.772-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:41:45.772-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:41:45.780-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:41:45.780-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:41:45.787-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.522 seconds
+[2025-04-16T14:44:20.670-0500] {processor.py:186} INFO - Started process (PID=24807) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:44:20.671-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:44:20.671-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:44:20.671-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:44:21.068-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:44:21.131-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:44:21.131-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:44:21.138-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:44:21.138-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:44:21.145-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.476 seconds
+[2025-04-16T14:46:53.928-0500] {processor.py:186} INFO - Started process (PID=25019) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:46:53.931-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:46:53.931-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:46:53.931-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:46:54.402-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:46:54.508-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:46:54.508-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:46:54.517-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:46:54.517-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:46:54.524-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.598 seconds
+[2025-04-16T14:49:32.250-0500] {processor.py:186} INFO - Started process (PID=25179) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:49:32.251-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:49:32.251-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:49:32.251-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:49:32.506-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:49:32.567-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:49:32.567-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:49:32.574-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:49:32.574-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:49:32.579-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.331 seconds
+[2025-04-16T14:52:07.174-0500] {processor.py:186} INFO - Started process (PID=25330) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:52:07.174-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:52:07.174-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:52:07.174-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:52:07.424-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:52:07.482-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:52:07.482-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:52:07.489-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:52:07.489-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:52:07.494-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.322 seconds
+[2025-04-16T14:54:31.239-0500] {processor.py:186} INFO - Started process (PID=25489) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:54:31.240-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:54:31.240-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:54:31.240-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:54:31.517-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:54:31.576-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:54:31.576-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:54:31.583-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:54:31.583-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:54:31.588-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.351 seconds
+[2025-04-16T14:56:57.324-0500] {processor.py:186} INFO - Started process (PID=25674) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:56:57.325-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:56:57.325-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:56:57.325-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:56:57.590-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:56:57.650-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:56:57.650-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:56:57.657-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:56:57.657-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:56:57.662-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.340 seconds
+[2025-04-16T14:59:23.437-0500] {processor.py:186} INFO - Started process (PID=25824) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:59:23.438-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T14:59:23.438-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:59:23.438-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:59:23.676-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T14:59:23.744-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:59:23.743-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:59:23.750-0500] {logging_mixin.py:190} INFO - [2025-04-16T14:59:23.750-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 19:00:00+00:00, run_after=2025-04-16 20:00:00+00:00
+[2025-04-16T14:59:23.755-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T15:02:00.942-0500] {processor.py:186} INFO - Started process (PID=25985) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:02:00.943-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:02:00.943-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:02:00.943-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:02:01.191-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:02:01.251-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:02:01.251-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:02:01.257-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:02:01.257-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:02:01.263-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.323 seconds
+[2025-04-16T15:04:26.841-0500] {processor.py:186} INFO - Started process (PID=26127) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:04:26.841-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:04:26.842-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:04:26.842-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:04:27.070-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:04:27.130-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:04:27.130-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:04:27.137-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:04:27.137-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:04:27.143-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T15:07:01.170-0500] {processor.py:186} INFO - Started process (PID=26279) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:07:01.171-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:07:01.171-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:07:01.171-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:07:01.438-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:07:01.498-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:07:01.498-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:07:01.504-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:07:01.504-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:07:01.510-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.341 seconds
+[2025-04-16T15:09:27.078-0500] {processor.py:186} INFO - Started process (PID=26447) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:09:27.078-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:09:27.079-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:09:27.079-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:09:27.309-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:09:27.367-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:09:27.367-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:09:27.374-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:09:27.374-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:09:27.381-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T15:11:50.993-0500] {processor.py:186} INFO - Started process (PID=26627) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:11:50.994-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:11:50.994-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:11:50.994-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:11:51.241-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:11:51.300-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:11:51.300-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:11:51.307-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:11:51.306-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:11:51.312-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T15:14:12.439-0500] {processor.py:186} INFO - Started process (PID=26793) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:14:12.440-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:14:12.440-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:14:12.440-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:14:12.669-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:14:12.731-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:14:12.731-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:14:12.738-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:14:12.738-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:14:12.744-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.306 seconds
+[2025-04-16T15:16:35.978-0500] {processor.py:186} INFO - Started process (PID=26960) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:16:35.979-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:16:35.979-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:16:35.979-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:16:36.230-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:16:36.289-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:16:36.289-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:16:36.295-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:16:36.295-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:16:36.300-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.324 seconds
+[2025-04-16T15:18:57.927-0500] {processor.py:186} INFO - Started process (PID=27098) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:18:57.928-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:18:57.928-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:18:57.928-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:18:58.157-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:18:58.219-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:18:58.219-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:18:58.225-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:18:58.225-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:18:58.231-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.306 seconds
+[2025-04-16T15:21:21.975-0500] {processor.py:186} INFO - Started process (PID=27242) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:21:21.976-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:21:21.976-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:21:21.976-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:21:22.224-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:21:22.285-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:21:22.285-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:21:22.292-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:21:22.292-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:21:22.297-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.324 seconds
+[2025-04-16T15:23:56.318-0500] {processor.py:186} INFO - Started process (PID=27437) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:23:56.318-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:23:56.319-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:23:56.318-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:23:56.549-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:23:56.610-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:23:56.610-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:23:56.618-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:23:56.618-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:23:56.624-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.308 seconds
+[2025-04-16T15:26:32.350-0500] {processor.py:186} INFO - Started process (PID=27601) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:26:32.351-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:26:32.351-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:26:32.351-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:26:32.610-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:26:32.670-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:26:32.669-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:26:32.677-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:26:32.677-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:26:32.682-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.334 seconds
+[2025-04-16T15:29:07.596-0500] {processor.py:186} INFO - Started process (PID=27789) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:29:07.596-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:29:07.597-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:29:07.597-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:29:07.956-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:29:08.015-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:29:08.014-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:29:08.021-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:29:08.021-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:29:08.027-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.433 seconds
+[2025-04-16T15:31:36.457-0500] {processor.py:186} INFO - Started process (PID=27966) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:31:36.458-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:31:36.458-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:31:36.458-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:31:36.907-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:31:36.966-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:31:36.966-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:31:36.973-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:31:36.973-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:31:36.979-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.524 seconds
+[2025-04-16T15:43:45.467-0500] {processor.py:186} INFO - Started process (PID=28176) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:43:45.468-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:43:45.468-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:43:45.468-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:43:45.699-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:43:45.756-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:43:45.756-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:43:45.763-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:43:45.763-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:43:45.769-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.303 seconds
+[2025-04-16T15:54:11.568-0500] {processor.py:186} INFO - Started process (PID=28450) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:54:11.569-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:54:11.569-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:54:11.569-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:54:12.162-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:54:12.246-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:54:12.246-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:54:12.255-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:54:12.255-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:54:12.262-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.696 seconds
+[2025-04-16T15:56:44.709-0500] {processor.py:186} INFO - Started process (PID=28694) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:56:44.710-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:56:44.710-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:56:44.710-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:56:45.114-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:56:45.172-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:56:45.172-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:56:45.179-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:56:45.179-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:56:45.186-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.479 seconds
+[2025-04-16T15:59:12.092-0500] {processor.py:186} INFO - Started process (PID=28895) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:59:12.093-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T15:59:12.093-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:59:12.093-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:59:12.326-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T15:59:12.386-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:59:12.386-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T15:59:12.392-0500] {logging_mixin.py:190} INFO - [2025-04-16T15:59:12.392-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 20:00:00+00:00, run_after=2025-04-16 21:00:00+00:00
+[2025-04-16T15:59:12.397-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.307 seconds
+[2025-04-16T16:01:38.257-0500] {processor.py:186} INFO - Started process (PID=29058) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:01:38.257-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:01:38.258-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:01:38.257-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:01:38.488-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:01:38.547-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:01:38.547-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:01:38.553-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:01:38.553-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:01:38.559-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.304 seconds
+[2025-04-16T16:03:52.151-0500] {processor.py:186} INFO - Started process (PID=29228) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:03:52.152-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:03:52.152-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:03:52.152-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:03:52.398-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:03:52.456-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:03:52.456-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:03:52.463-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:03:52.463-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:03:52.468-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.319 seconds
+[2025-04-16T16:06:06.702-0500] {processor.py:186} INFO - Started process (PID=29413) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:06:06.703-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:06:06.703-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:06:06.703-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:06:06.930-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:06:06.988-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:06:06.988-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:06:06.995-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:06:06.995-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:06:07.000-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.300 seconds
+[2025-04-16T16:08:19.658-0500] {processor.py:186} INFO - Started process (PID=29551) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:08:19.658-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:08:19.658-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:08:19.658-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:08:19.906-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:08:19.964-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:08:19.964-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:08:19.971-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:08:19.971-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:08:19.976-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T16:10:33.928-0500] {processor.py:186} INFO - Started process (PID=29705) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:10:33.929-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:10:33.929-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:10:33.929-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:10:34.161-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:10:34.222-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:10:34.222-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:10:34.229-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:10:34.229-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:10:34.234-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.308 seconds
+[2025-04-16T16:12:46.323-0500] {processor.py:186} INFO - Started process (PID=29852) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:12:46.324-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:12:46.324-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:12:46.324-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:12:46.573-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:12:46.633-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:12:46.633-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:12:46.640-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:12:46.640-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:12:46.646-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.324 seconds
+[2025-04-16T16:15:00.118-0500] {processor.py:186} INFO - Started process (PID=29981) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:15:00.118-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:15:00.119-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:15:00.119-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:15:00.359-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:15:00.423-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:15:00.423-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:15:00.430-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:15:00.430-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:15:00.436-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.320 seconds
+[2025-04-16T16:17:11.617-0500] {processor.py:186} INFO - Started process (PID=30117) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:17:11.617-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:17:11.618-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:17:11.618-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:17:11.867-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:17:11.926-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:17:11.926-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:17:11.932-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:17:11.932-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:17:11.938-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.322 seconds
+[2025-04-16T16:21:46.318-0500] {processor.py:186} INFO - Started process (PID=30266) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:21:46.319-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:21:46.319-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:21:46.319-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:21:46.553-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:21:46.612-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:21:46.611-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:21:46.619-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:21:46.619-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:21:46.624-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.308 seconds
+[2025-04-16T16:24:01.427-0500] {processor.py:186} INFO - Started process (PID=30414) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:24:01.428-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:24:01.428-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:24:01.428-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:24:01.679-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:24:01.737-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:24:01.737-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:24:01.744-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:24:01.744-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:24:01.750-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.324 seconds
+[2025-04-16T16:40:17.901-0500] {processor.py:186} INFO - Started process (PID=30579) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:40:17.902-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T16:40:17.902-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:40:17.902-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:40:18.133-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T16:40:18.191-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:40:18.191-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:40:18.197-0500] {logging_mixin.py:190} INFO - [2025-04-16T16:40:18.197-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 21:00:00+00:00, run_after=2025-04-16 22:00:00+00:00
+[2025-04-16T16:40:18.202-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.303 seconds
+[2025-04-16T17:18:41.519-0500] {processor.py:186} INFO - Started process (PID=30785) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T17:18:41.520-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T17:18:41.520-0500] {logging_mixin.py:190} INFO - [2025-04-16T17:18:41.520-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T17:18:41.774-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T17:18:41.834-0500] {logging_mixin.py:190} INFO - [2025-04-16T17:18:41.833-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T17:18:41.840-0500] {logging_mixin.py:190} INFO - [2025-04-16T17:18:41.840-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 22:00:00+00:00, run_after=2025-04-16 23:00:00+00:00
+[2025-04-16T17:18:41.845-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.328 seconds
+[2025-04-16T18:03:18.753-0500] {processor.py:186} INFO - Started process (PID=30908) to work on /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T18:03:18.753-0500] {processor.py:914} INFO - Processing file /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py for tasks to queue
+[2025-04-16T18:03:18.754-0500] {logging_mixin.py:190} INFO - [2025-04-16T18:03:18.753-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T18:03:18.983-0500] {processor.py:925} INFO - DAG(s) 'multi_city_weather_pipeline' retrieved from /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py
+[2025-04-16T18:03:19.041-0500] {logging_mixin.py:190} INFO - [2025-04-16T18:03:19.041-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T18:03:19.048-0500] {logging_mixin.py:190} INFO - [2025-04-16T18:03:19.048-0500] {dag.py:4180} INFO - Setting next_dagrun for multi_city_weather_pipeline to 2025-04-16 22:00:00+00:00, run_after=2025-04-16 23:00:00+00:00
+[2025-04-16T18:03:19.053-0500] {processor.py:208} INFO - Processing /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/dags/weather_pipeline_dag.py took 0.302 seconds

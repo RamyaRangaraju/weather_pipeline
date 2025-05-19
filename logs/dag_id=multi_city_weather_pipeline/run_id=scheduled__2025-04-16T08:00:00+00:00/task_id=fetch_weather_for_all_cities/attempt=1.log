@@ -1,0 +1,50 @@
+[2025-04-16T04:10:35.288-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-16T04:10:35.292-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities scheduled__2025-04-16T08:00:00+00:00 [queued]>
+[2025-04-16T04:10:35.295-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities scheduled__2025-04-16T08:00:00+00:00 [queued]>
+[2025-04-16T04:10:35.295-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-16T04:10:35.300-0500] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_weather_for_all_cities> on 2025-04-16 08:00:00+00:00
+[2025-04-16T04:10:35.304-0500] {standard_task_runner.py:72} INFO - Started process 12470 to run task
+[2025-04-16T04:10:35.309-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'multi_city_weather_pipeline', 'fetch_weather_for_all_cities', 'scheduled__2025-04-16T08:00:00+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/var/folders/4n/q_76d_d57mb9q1qtrf4mvh940000gn/T/tmpvd7upjso']
+[2025-04-16T04:10:35.309-0500] {standard_task_runner.py:105} INFO - Job 106: Subtask fetch_weather_for_all_cities
+[2025-04-16T04:10:35.328-0500] {task_command.py:467} INFO - Running <TaskInstance: multi_city_weather_pipeline.fetch_weather_for_all_cities scheduled__2025-04-16T08:00:00+00:00 [running]> on host Ramyas-MacBook-Air.local
+[2025-04-16T04:10:35.346-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='multi_city_weather_pipeline' AIRFLOW_CTX_TASK_ID='fetch_weather_for_all_cities' AIRFLOW_CTX_EXECUTION_DATE='2025-04-16T08:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-16T08:00:00+00:00'
+[2025-04-16T04:10:35.347-0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-16T04:10:35.347-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-16T04:10:35.347-0500] {logging_mixin.py:190} INFO - Current task name:fetch_weather_for_all_cities state:running start_date:2025-04-16 09:10:35.292252+00:00
+[2025-04-16T04:10:35.347-0500] {logging_mixin.py:190} INFO - Dag name:multi_city_weather_pipeline and current dag run status:running
+[2025-04-16T04:10:35.348-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-16T04:10:35.586-0500] {logging_mixin.py:190} INFO - Dallas: 13.88°C, clear sky
+[2025-04-16T04:10:36.046-0500] {logging_mixin.py:190} INFO - Saved Dallas to DB.
+[2025-04-16T04:10:36.227-0500] {logging_mixin.py:190} INFO - New York: 8.25°C, broken clouds
+[2025-04-16T04:10:36.512-0500] {logging_mixin.py:190} INFO - Saved New York to DB.
+[2025-04-16T04:10:36.692-0500] {logging_mixin.py:190} INFO - London: 10.99°C, scattered clouds
+[2025-04-16T04:10:36.810-0500] {logging_mixin.py:190} INFO - Saved London to DB.
+[2025-04-16T04:10:36.991-0500] {logging_mixin.py:190} INFO - Tokyo: 18.56°C, few clouds
+[2025-04-16T04:10:37.024-0500] {logging_mixin.py:190} INFO - Saved Tokyo to DB.
+[2025-04-16T04:10:37.203-0500] {logging_mixin.py:190} INFO - Bengaluru: 31.94°C, scattered clouds
+[2025-04-16T04:10:37.644-0500] {logging_mixin.py:190} INFO - Saved Bengaluru to DB.
+[2025-04-16T04:10:37.825-0500] {logging_mixin.py:190} INFO - San Francisco: 11.73°C, broken clouds
+[2025-04-16T04:10:37.890-0500] {logging_mixin.py:190} INFO - Saved San Francisco to DB.
+[2025-04-16T04:10:38.065-0500] {logging_mixin.py:190} INFO - Chicago: 3.3°C, clear sky
+[2025-04-16T04:10:38.171-0500] {logging_mixin.py:190} INFO - Saved Chicago to DB.
+[2025-04-16T04:10:38.353-0500] {logging_mixin.py:190} INFO - Berlin: 20.53°C, clear sky
+[2025-04-16T04:10:38.782-0500] {logging_mixin.py:190} INFO - Saved Berlin to DB.
+[2025-04-16T04:10:38.969-0500] {logging_mixin.py:190} INFO - Sydney: 18.8°C, broken clouds
+[2025-04-16T04:10:39.210-0500] {logging_mixin.py:190} INFO - Saved Sydney to DB.
+[2025-04-16T04:10:39.386-0500] {logging_mixin.py:190} INFO - Toronto: 1.15°C, overcast clouds
+[2025-04-16T04:10:39.678-0500] {logging_mixin.py:190} INFO - Saved Toronto to DB.
+[2025-04-16T04:10:39.864-0500] {logging_mixin.py:190} INFO - Mumbai: 31.99°C, smoke
+[2025-04-16T04:10:40.296-0500] {logging_mixin.py:190} INFO - Saved Mumbai to DB.
+[2025-04-16T04:10:40.485-0500] {logging_mixin.py:190} INFO - Cape Town: 21°C, clear sky
+[2025-04-16T04:10:40.625-0500] {logging_mixin.py:190} INFO - Saved Cape Town to DB.
+[2025-04-16T04:10:40.709-0500] {logging_mixin.py:190} INFO - ✅ Excel report saved: /Users/Ramya_Rangaraju/Data_engineering_projects/weather_pipeline/scripts/../reports/weather_report_2025-04-16.xlsx
+[2025-04-16T04:10:40.709-0500] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-16T04:10:40.712-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-16T04:10:40.712-0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=multi_city_weather_pipeline, task_id=fetch_weather_for_all_cities, run_id=scheduled__2025-04-16T08:00:00+00:00, execution_date=20250416T080000, start_date=20250416T091035, end_date=20250416T091040
+[2025-04-16T04:10:40.716-0500] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-16T04:10:40.717-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-16T04:10:40.717-0500] {logging_mixin.py:190} INFO - Dag name:multi_city_weather_pipeline queued_at:2025-04-16 09:10:21.418944+00:00
+[2025-04-16T04:10:40.717-0500] {logging_mixin.py:190} INFO - Task hostname:Ramyas-MacBook-Air.local operator:PythonOperator
+[2025-04-16T04:10:40.723-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-16T04:10:40.727-0500] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-16T04:10:40.727-0500] {local_task_job_runner.py:245} INFO - ::endgroup::
